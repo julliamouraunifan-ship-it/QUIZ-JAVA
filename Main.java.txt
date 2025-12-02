@@ -1,0 +1,163 @@
+public class Main {
+    public static void main(String[] args) {
+ 
+        Quiz quiz = new Quiz();
+
+      
+        Questao q1 = new Questao();
+        q1.pergunta = "Qual a capital do Brasil?";
+        q1.opcaoA = "Rio de Janeiro";
+        q1.opcaoB = "São Paulo";
+        q1.opcaoC = "Brasília";
+        q1.opcaoD = "Salvador";
+        q1.opcaoE = "Porto Alegre";
+        q1.correta = "C";
+        quiz.adicionarQuestao(q1);
+
+       Questao q2 = new Questao();
+        q2.pergunta = "Qual é o maior planeta do sistema solar?";
+        q2.opcaoA = "Terra";
+        q2.opcaoB = "Marte";
+        q2.opcaoC = "Júpiter";
+        q2.opcaoD = "Saturno";
+        q2.opcaoE = "Netuno";
+        q2.correta = "C";
+        quiz.adicionarQuestao(q2);
+
+       Questao q3 = new Questao();
+        q3.pergunta = "Quem foi o primeiro homem a pisar na Lua?";
+        q3.opcaoA = "Yuri Gagarin";
+        q3.opcaoB = "Buzz Aldrin";
+        q3.opcaoC = "Neil Armstrong";
+        q3.opcaoD = "Michael Collins";
+        q3.opcaoE = "Alan Shepard";
+        q3.correta = "C";
+        quiz.adicionarQuestao(q3);
+
+        Questao q4 = new Questao();
+        q4.pergunta = "Qual a fórmula química da água?";
+        q4.opcaoA = "H2O";
+        q4.opcaoB = "CO2";
+        q4.opcaoC = "O2";
+        q4.opcaoD = "H2";
+        q4.opcaoE = "NaCl";
+        q4.correta = "A";
+        quiz.adicionarQuestao(q4);
+
+        Questao q5 = new Questao();
+        q5.pergunta = "Qual o maior oceano do planeta?";
+        q5.opcaoA = "Oceano Pacífico";
+        q5.opcaoB = "Oceano Atlântico";
+        q5.opcaoC = "Oceano Índico";
+        q5.opcaoD = "Oceano Ártico";
+        q5.opcaoE = "Oceano Antártico";
+        q5.correta = "A";
+        quiz.adicionarQuestao(q5);
+
+        Questao q6 = new Questao();
+        q6.pergunta = "Qual a altura do Monte Everest?";
+        q6.opcaoA = "8.848 metros";
+        q6.opcaoB = "7.832 metros";
+        q6.opcaoC = "6.932 metros";
+        q6.opcaoD = "9.184 metros";
+        q6.opcaoE = "8.642 metros";
+        q6.correta = "A";
+        quiz.adicionarQuestao(q6);
+
+        
+        Questao q7 = new Questao();
+        q7.pergunta = "Em que ano a primeira guerra mundial começou?";
+        q7.opcaoA = "1914";
+        q7.opcaoB = "1915";
+        q7.opcaoC = "1912";
+        q7.opcaoD = "1900";
+        q7.opcaoE = "1920";
+        q7.correta = "A";
+        quiz.adicionarQuestao(q7);
+
+        Questao q8 = new Questao();
+        q8.pergunta = "Quem pintou a Mona Lisa?";
+        q8.opcaoA = "Vincent van Gogh";
+        q8.opcaoB = "Pablo Picasso";
+        q8.opcaoC = "Leonardo da Vinci";
+        q8.opcaoD = "Claude Monet";
+        q8.opcaoE = "Salvador Dalí";
+        q8.correta = "C";
+        quiz.adicionarQuestao(q8);
+
+        Questao q9 = new Questao();
+        q9.pergunta = "Qual é o elemento químico com símbolo 'O'?";
+        q9.opcaoA = "Ouro";
+        q9.opcaoB = "Oxigênio";
+        q9.opcaoC = "Ósmio";
+        q9.opcaoD = "Odin";
+        q9.opcaoE = "Oganessônio";
+        q9.correta = "B";
+        quiz.adicionarQuestao(q9);
+
+        Questao q10 = new Questao();
+        q10.pergunta = "Qual é o maior animal terrestre?";
+        q10.opcaoA = "Girafa";
+        q10.opcaoB = "Elefante Africano";
+        q10.opcaoC = "Búfalo";
+        q10.opcaoD = "Rinoceronte";
+        q10.opcaoE = "Hipopótamo";
+        q10.correta = "B";
+        quiz.adicionarQuestao(q10);
+
+        Questao q11 = new Questao();
+        q11.pergunta = "Em qual continente está localizada a Austrália?";
+        q11.opcaoA = "África";
+        q11.opcaoB = "Ásia";
+        q11.opcaoC = "Oceania";
+        q11.opcaoD = "América";
+        q11.opcaoE = "Europa";
+        q11.correta = "C";
+        quiz.adicionarQuestao(q11);
+        
+
+        Questao q12 = new Questao();
+        q12.pergunta = "Quem escreveu 'Dom Casmurro'?";
+        q12.opcaoA = "Clarice Lispector";
+        q12.opcaoB = "Machado de Assis";
+        q12.opcaoC = "José de Alencar";
+        q12.opcaoD = "Monteiro Lobato";
+        q12.opcaoE = "Jorge Amado";
+        q12.correta = "B";
+        quiz.adicionarQuestao(q12);
+
+        Questao q13 = new Questao();
+        q13.pergunta = "Qual é o símbolo químico do carbono?";
+        q13.opcaoA = "C";
+        q13.opcaoB = "Co";
+        q13.opcaoC = "Ca";
+        q13.opcaoD = "Cr";
+        q13.opcaoE = "Cu";
+        q13.correta = "A";
+        quiz.adicionarQuestao(q13);
+
+        Questao q14 = new Questao();
+        q14.pergunta = "Qual é a cor do cavalo branco de Napoleão?";
+        q14.opcaoA = "Preto";
+        q14.opcaoB = "Branco";
+        q14.opcaoC = "Cinza";
+        q14.opcaoD = "Marrom";
+        q14.opcaoE = "Bege";
+        q14.correta = "B";
+        quiz.adicionarQuestao(q14);
+
+        Questao q15 = new Questao();
+        q15.pergunta = "Quantos estados o Brasil possui?";
+        q15.opcaoA = "26";
+        q15.opcaoB = "27";
+        q15.opcaoC = "28";
+        q15.opcaoD = "29";
+        q15.opcaoE = "30";
+        q15.correta = "B";
+        quiz.adicionarQuestao(q15);
+
+
+        
+        quiz.executarQuiz();
+    }
+}

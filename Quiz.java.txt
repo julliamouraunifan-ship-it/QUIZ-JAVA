@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Quiz {
+    List<Questao> questoes = new ArrayList<>();
+    int pontuacao = 0;
+
+    public void adicionarQuestao(Questao questao) {
+        this.questoes.add(questao);
+    }
+
+    public void executarQuiz() {
+        Scanner scanner = new Scanner(System.in);
+        for (Questao questao : questoes) {
+            questao.escrevaQuestao();
+            String resposta = questao.leiaResposta();
+            if (questao.isCorreta(resposta)) {
+                pontuacao++;
+            }
+        }
+        System.out.println("Você acertou " + pontuacao + " de " + questoes.size() + " questões.");
+        System.out.println("Sua pontuação final é: " + pontuacao + "/" + questoes.size());
+    }
+}
